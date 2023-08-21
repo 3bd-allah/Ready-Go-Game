@@ -1,0 +1,108 @@
+body{
+    display: grid;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(94, 182, 182);    
+}
+
+h1 span{
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: 2fr ;
+    column-gap: 100px;
+    position: relative;
+    justify-content: center;
+    right: 100px;
+    align-items: center;
+    top: 100px;
+}
+
+input{
+    width:80px ;
+    height: 30px;
+    border: 1px solid rgb(4, 237, 4);
+    margin: 10px;
+}
+
+label{
+    position: relative;
+    left: 22px;
+}
+
+.input{
+    background-color: rgb(12, 139, 12);
+    color: white;
+    height: 40%;
+    text-align: center;
+}
+
+.output{
+    background-color: rgb(38, 75, 161);
+    color: white;
+    height: 40%;
+    text-align: center;
+}
+.notes{
+    background-color: rgb(242, 106, 56);
+    color: white;
+    height: 40%;
+    text-align: center;
+}
+
+.number{
+    position: relative;
+    left: 140px;
+}
+
+.circle{
+    display: flex;
+    flex-flow: row;
+    width: 400px;
+    position: relative;
+    justify-content:space-between ;
+
+}
+
+#cirReady{
+    
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+#cirSteady{
+    
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    height: 75px;
+}
+
+#cirGo{
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    height: 75px;
+}
+
+.rules{
+    position: relative;
+    top:40px;
+}
+
+.circleText{
+    font-size: larger;
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
